@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body {
+  font-size: 16px;
+  background-color: lightsalmon;
+  color: darkslateblue;
+}
+
+.main {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+  width: 50%;
+  box-shadow: 12px 12px 16px 0 rgba(2, 1, 3, 0.25),
+    -8px -8px 12px 0 rgba(223, 167, 144, 0.507);
+  border-radius: 10px;
+  border-color: grey;
+  padding-bottom: 1rem;
+}
+.header {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  margin: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: tomato;
+  box-shadow: 12px 0px 16px 0 rgba(2, 1, 3, 0.25),
+    -8px -8px 12px 0 rgba(223, 167, 144, 0.507);
+}
+
+.todo {
+  padding-left: 1.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.todoInput {
+  text-align: center;
+  margin-left: 1.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  border-radius: 5px;
+  width: 60%;
+  box-shadow: 6px 6px 16px 0 rgb(255, 99, 71, 0.5), inset,
+    -4px -4px 12px 0 rgb(124, 138, 153, 0.5) inset;
+  background: linear-gradient(
+    135deg,
+    rgb(255, 99, 71, 0.45),
+    rgba(255, 160, 122, 0.2)
+  );
+}
+.plus {
+  width: 2.75rem;
+  height: 2.75rem;
+  font-size: 1.4rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.25rem;
+  margin-left: 0.4rem;
+  background-color: tomato;
+  color: darkslateblue;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+.minus {
+  width: 1.6rem;
+  height: 1.6rem;
+  font-size: 1.4rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  background-color: tomato;
+  color: darkslateblue;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
