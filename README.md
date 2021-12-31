@@ -1,7 +1,7 @@
 # TodoList-React
 Todo List created in React
 <p>This is the code for a basic TODO list made with React. It originated from an assignment in Week #14 of MIT's MERN Coding Bootcamp. The challenge was to refactor out components, personalize features, and add styling.</p>
-
+<img src="./neumorphic.png"/>
 <h2>Features</h2>
 <ol>
 <li>React useState is used to maintain state of the list and input values for new items.</li>
@@ -9,7 +9,6 @@ Todo List created in React
 <li>Two color shadow boxes and gradients were used to give an Neurmorphic look to the form and buttons.</li>
 <li>Components were refactored to an input form, list item, header, and plus and minus buttons</li>
 </ol>
-<img src="./neumorphic.png"/>
 <h2>To see the form in action follow this link:</h2>
 <a href="https://codesandbox.io/s/todolist-react-xzfqo?file=/src/App.js:0-1026">Link to CodeSandbox</a>
 <h2>To use:</h2>
