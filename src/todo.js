@@ -1,5 +1,4 @@
 import Minus from './minus';
-import Plus from './plus';
 const Todo = ({todo, index, removeTodo}) => {
     function handle(){
         removeTodo(index);

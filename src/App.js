@@ -23,7 +23,7 @@ const App = () => {
     }        
   ]);
   
-  const addTodo = (text) => {
+  const addTodo = text => {
     const newTodos = [...todos, {title: text, isCompleted: false}];
     setTodos(newTodos);
   }

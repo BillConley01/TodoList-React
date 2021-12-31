@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+import Plus from './plus';
 
 const TodoForm = ({ addTodo }) => {
     const [value, setValue] = useState('');
     
-    const handleSubmit = (e) => {
+    const handleSubmit = e => {
         e.preventDefault();
         if(!value) return;
         addTodo(value);
@@ -25,7 +26,7 @@ const TodoForm = ({ addTodo }) => {
         value={value}
         placeholder="Add New Item"
         onChange={onChange}
-        /><div className="plus" onClick={handleSubmit}>+</div>
+        /><Plus onClick={handleSubmit}/>
       </form>
       </>
     );

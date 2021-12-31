@@ -1,6 +1,6 @@
 const Minus = () => {
     
-    return <div className="minus">-</div>
+    return <button className="minus">-</button>
 }
 
 export default Minus;

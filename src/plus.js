@@ -1,6 +1,6 @@
 const Plus = () => {
     
-    return <div className="plus">-</div>
+    return <button className="plus">+</button>
 }
 
 export default Plus;
