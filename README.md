@@ -10,7 +10,7 @@ Todo List created in React
 <li>Components were refactored to an input form, list item, header, and plus and minus buttons</li>
 </ol>
 <h2>To see the form in action follow this link:</h2>
-<a href="https://codesandbox.io/s/todolist-react-xzfqo?file=/src/App.js:0-1026">Link to CodeSandbox</a>
+<a href="https://xzfqo.csb.app/">Link to CodeSandbox</a>
 <h2>To use:</h2>
 <ul>
 <li>Fork this repository</li>
